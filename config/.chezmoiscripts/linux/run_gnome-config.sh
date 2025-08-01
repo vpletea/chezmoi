@@ -1,3 +1,3 @@
 #!/bin/bash
-dconf reset -f
-dconf load / < $HOME/.config/dconf/dconf.ini
+/run/current-system/sw/bin/dconf reset -f
+/run/current-system/sw/bin/dconf dconf load / < $HOME/.config/dconf/dconf.ini
